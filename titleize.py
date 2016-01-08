@@ -1,11 +1,14 @@
-function_words = ['or', 'and', 'but', 'a', 'an', 'the', 'of', 'for', 'on', 'to', 'while', 'because', 'before', 'how', 'when', 'where', 'as', 'if', 'after', 'though', 'in', ]
+function_words = [
+'or', 'and', 'but', 'a', 'an', 'the', 'of', 'for', 'on', 'to', 'while', 'because', 'before', 'how', 'when', 'where', 'as', 'if', 'after', 'though', 'in',
+]
 
 inp = raw_input("Enter a text: ")
 words = inp.split()
 
-for word in words:
-    if word.lower() in function_words:
-        print word.lower(),
+print words[0].capitalize(),
+for Word in words[1:]:
+    word = Word.lower()
+    if word in function_words:
+        print word,
     else:
-        print word[0].upper() + word[1:].lower(), 
-
+        print word.capitalize(),
