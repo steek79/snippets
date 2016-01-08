@@ -1,5 +1,7 @@
 function_words = [
-'or', 'and', 'but', 'a', 'an', 'the', 'of', 'for', 'on', 'to', 'while', 'because', 'before', 'how', 'when', 'where', 'as', 'if', 'after', 'though', 'in',
+'or', 'and', 'but', 'a', 'an', 'the', 'of', 'for', 'on', 'to', 'while',
+'because', 'before', 'how', 'when', 'where', 'as', 'if', 'after',
+'though', 'although', 'in', 'not', 'than', 'until', 'till', 'that',
 ]
 
 inp = raw_input("Enter a text: ")
